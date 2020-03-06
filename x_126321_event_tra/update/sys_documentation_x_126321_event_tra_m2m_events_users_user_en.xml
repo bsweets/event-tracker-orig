@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user" label="User" language="en" table="x_126321_event_tra_m2m_events_users">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <help/>
+            <hint/>
+            <label>User</label>
+            <language>en</language>
+            <name>x_126321_event_tra_m2m_events_users</name>
+            <plural>Users</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2020-03-06 04:19:13</sys_created_on>
+            <sys_id>cb7c433edb570010da88e04a4896191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_package display_value="Event Tracker" source="x_126321_event_tra">16e88b3adb170010da88e04a4896195b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Tracker">16e88b3adb170010da88e04a4896195b</sys_scope>
+            <sys_update_name>sys_documentation_x_126321_event_tra_m2m_events_users_user_en</sys_update_name>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2020-03-06 04:19:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
