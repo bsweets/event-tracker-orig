@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation>
+        <navigation_tab display_value="Event Tracker">83d983b2db570010da88e04a48961984</navigation_tab>
+        <order>500</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 04:07:45</sys_created_on>
+        <sys_id>53d903badb570010da88e04a489619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Tracker" source="x_126321_event_tra">16e88b3adb170010da88e04a4896195b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Tracker">16e88b3adb170010da88e04a4896195b</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_53d903badb570010da88e04a489619b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 04:07:45</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>
