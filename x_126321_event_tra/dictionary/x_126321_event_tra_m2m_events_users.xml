@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Event Tra M2m Events Users" max_length="40" name="x_126321_event_tra_m2m_events_users" sizeclass="0" type="collection">
+    <element label="Event Tra M2m Events Users" max_length="40" name="x_126321_event_tra_m2m_events_users" type="collection">
         <element label="Amount paid" max_length="20" name="amount_paid" type="currency"/>
         <element attributes="encode_utf8=false" label="Event" max_length="32" name="event" reference="x_126321_event_tra_event" type="reference"/>
         <element label="Paid" max_length="40" name="paid" type="boolean"/>
