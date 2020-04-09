@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Event" max_length="40" name="x_126321_event_tra_event" sizeclass="0" type="collection">
+    <element label="Event" max_length="40" name="x_126321_event_tra_event" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Event name" max_length="200" name="event_name" type="string"/>
         <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
