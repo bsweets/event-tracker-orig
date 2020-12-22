@@ -29,9 +29,17 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Add your code here
-	// Query Event table for events with the same Date/Time and Location
-	// Abort insert if record exists for the same Date/Time and Location
+	// Find other events with the saem date and time to prevent overlap
+	var grEvent = new GlideRecord('x_126321_event_tra_event');
+	grEvent.addQuery(date, current.date);
+	grEvent.query();
+	
+	// If any events have the same date and time, abort the commit and add
+	// an error message to the screen
+	if(grEvent.hasNext()){
+		gs.addErrorMessage("Another event happens at the same time");
+		current.setAbortAction(true);
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -40,15 +48,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8f2ec77edb570010da88e04a4896193a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Check for overlapping events</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Tracker" source="x_126321_event_tra">16e88b3adb170010da88e04a4896195b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Tracker">16e88b3adb170010da88e04a4896195b</sys_scope>
         <sys_update_name>sys_script_8f2ec77edb570010da88e04a4896193a</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2020-03-06 05:09:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-22 15:06:33</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

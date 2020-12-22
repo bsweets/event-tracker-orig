@@ -4,13 +4,18 @@
         <data_item/>
         <description/>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>not_required</fetch_type>
+        <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Address-Book">07d983b2db570010da88e04a48961982</icon>
         <item_view display_value="Event Detail Screen Item View">03d983b2db570010da88e04a48961987</item_view>
         <name>Event Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
         <roles_override/>
+        <segments_height/>
+        <segments_min_width/>
         <sys_class_name>sys_sg_form_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-06 04:07:45</sys_created_on>
@@ -24,6 +29,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 04:07:45</sys_updated_on>
         <table>x_126321_event_tra_event</table>
+        <use_view_config>false</use_view_config>
+        <view_config/>
     </sys_sg_form_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=93d983b2db570010da88e04a48961988"/>
 </record_update>
