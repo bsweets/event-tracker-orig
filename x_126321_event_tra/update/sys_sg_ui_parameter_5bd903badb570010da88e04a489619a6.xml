@@ -34,6 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-06 04:07:45</sys_updated_on>
         <table_name>x_126321_event_tra_event</table_name>
+        <virtual_field_value>false</virtual_field_value>
     </sys_sg_ui_parameter>
     <sys_translated_text action="delete_multiple" query="documentkey=5bd903badb570010da88e04a489619a6"/>
 </record_update>
